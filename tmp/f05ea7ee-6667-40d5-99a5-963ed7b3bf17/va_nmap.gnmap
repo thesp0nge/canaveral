@@ -1,0 +1,4 @@
+# Nmap 7.30 scan initiated Tue Nov 22 11:15:47 2016 as: nmap -sV --script=vulscan.nse -oA /Users/thesp0nge/src/hacking/canaveral/tmp/f05ea7ee-6667-40d5-99a5-963ed7b3bf17/va_nmap 127.0.0.1
+Host: 127.0.0.1 (localhost)	Status: Up
+Host: 127.0.0.1 (localhost)	Ports: 22/open/tcp//ssh//OpenSSH 7.2 (protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.23 ((Unix))/, 110/open/tcp//tcpwrapped///, 143/open/tcp//tcpwrapped///, 445/open/tcp//microsoft-ds?///, 548/open/tcp//afp//Apple AFP (name: nightwish; protocol 3.4; OS X 10.9 - 10.11; MacBookAir4,2)/, 993/open/tcp//imaps?///, 995/open/tcp//pop3s?///	Ignored State: closed (992)
+# Nmap done at Tue Nov 22 11:16:23 2016 -- 1 IP address (1 host up) scanned in 35.93 seconds

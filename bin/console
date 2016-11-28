@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'irb'
+require 'grape'
+require 'data_mapper'
+
+
+require './models/job'
+Dir.glob('./{models}/*.rb').each { |file| require file }
+DataMapper.setup(:default, "sqlite3://#{Dir.pwd}/db/canaveral_development.db")
+DataMapper.finalize
+DataMapper.auto_upgrade!
+
+
+require './canaveral.rb'
+IRB.start

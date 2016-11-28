@@ -1,0 +1,18 @@
+# Nmap 7.30 scan initiated Fri Nov 25 07:04:02 2016 as: nmap -oA /Users/thesp0nge/src/hacking/canaveral/tmp/4e44975c-08d4-4a09-b5ba-a55f2cdbbb96/nmap 127.0.0.1
+mass_dns: warning: Unable to open /etc/resolv.conf. Try using --system-dns or specify valid servers with --dns-servers
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00044s latency).
+Not shown: 962 closed ports, 29 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+88/tcp  open  kerberos-sec
+110/tcp open  pop3
+143/tcp open  imap
+445/tcp open  microsoft-ds
+548/tcp open  afp
+993/tcp open  imaps
+995/tcp open  pop3s
+
+# Nmap done at Fri Nov 25 07:04:07 2016 -- 1 IP address (1 host up) scanned in 5.71 seconds

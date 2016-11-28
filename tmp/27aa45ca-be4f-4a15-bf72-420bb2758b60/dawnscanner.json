@@ -1,0 +1,1 @@
+{"status":"OK","dawn_version":"1.6.7","scan_started":"2016-11-25 07:13:14 +0100","scan_duration":"0.104 sec","target":"/Users/thesp0nge/src/work/engage","mvc":"sinatra","mvc_version":"1.4.7","applied_checks_count":165,"skipped_checks_count":0,"vulnerabilities_count":0,"mitigated_issues_count":0,"reflected_xss_count":0,"vulnerabilities":[],"mitigated_vuln":[],"reflected_xss":[]}

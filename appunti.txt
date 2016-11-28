@@ -1,0 +1,13 @@
+DEMO
+
+1) curl http://localhost:9292/v1/jobs
+2) curl -d '{"hl": "127.0.0.1"}' http://localhost:9292/v1/portscan -H Content-Type:application/json
+
+3) curl http://localhost:9292/v1/job\?uuid\=
+4 - 1) curl -d '{"path":"/Users/thesp0nge/src/hacking/a_broken_sinatra_app"}' http://localhost:9292/v1/dawnscanner -H Content-Type:application/json
+4 - 2) curl -d '{"path":"/Users/thesp0nge/src/work/engage"}' http://localhost:9292/v1/dawnscanner -H Content-Type:application/json
+
+5) curl http://localhost:9292/v1/job\?uuid\=
+
+6) curl -d '{"target": "http://localhost:8998"}' http://localhost:9292/v1/zap -H Content-Type:application/json
+7) curl http://localhost:9292/v1/job\?uuid\=
