@@ -1,2 +1,0 @@
-
-Starting Nmap 7.30 ( https://nmap.org ) at 2016-11-22 08:47 CET
