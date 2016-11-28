@@ -1,4 +1,0 @@
-# Nmap 7.30 scan initiated Fri Nov 25 12:01:05 2016 as: nmap -oA /Users/thesp0nge/src/hacking/canaveral/tmp/a38f8fdb-05dc-4a01-9529-eba75363ef84/nmap 127.0.0.1
-Host: 127.0.0.1 (localhost)	Status: Up
-Host: 127.0.0.1 (localhost)	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 110/open/tcp//pop3///, 143/open/tcp//imap///, 445/open/tcp//microsoft-ds///, 548/open/tcp//afp///, 993/open/tcp//imaps///, 995/open/tcp//pop3s///, 8080/open/tcp//http-proxy///
-# Nmap done at Fri Nov 25 12:01:10 2016 -- 1 IP address (1 host up) scanned in 5.48 seconds

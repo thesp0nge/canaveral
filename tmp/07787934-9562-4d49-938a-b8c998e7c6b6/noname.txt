@@ -1,8 +1,0 @@
-Gemfile
-Gemfile.lock
-bin
-canaveral.rb
-config.ru
-db
-models
-tmp
